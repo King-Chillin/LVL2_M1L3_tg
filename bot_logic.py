@@ -20,3 +20,9 @@ def flip_coin():
         return "ОРЕЛ"
     else:
         return "РЕШКА"
+def money():
+    flip = random.randint(0, 1000000)
+    if flip == 1000000:
+        print('YOUR SO RICH')
+    else:
+        print('pretty broke')
